@@ -1,0 +1,9 @@
+create table Product_Master( 
+    Product_No varchar(6),
+    Description varchar(20),
+    Profit_Percentage number(10),
+    Unit_Message varchar(10), 
+    Qty_On_Hand number(6),
+    Recorder_Lvl number(6),
+    Sell_Price number(7,2),
+    Cost_Price number(7,2));
