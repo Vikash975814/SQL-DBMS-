@@ -1,0 +1,19 @@
+// Add new column
+alter table Client_Master 
+Add(DOB date);
+
+//modify Size
+alter table Client_Master 
+modify(Client_No number(10));
+
+//DROP column
+alter table Client_Master 
+drop column DOB;
+
+// Rename column Nmae
+alter table Product_Master 
+RENAME column Sell_Price to SellPrice;
+
+// Rename Table name
+alter table Product_Master 
+rename to ProductMaster;
